@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17BC7FBE2231EE0B000B3F82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BC7FBD2231EE0B000B3F82 /* AppDelegate.m */; };
+		17BC7FC12231EE0B000B3F82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BC7FC02231EE0B000B3F82 /* ViewController.m */; };
+		17BC7FC42231EE0B000B3F82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17BC7FC22231EE0B000B3F82 /* Main.storyboard */; };
+		17BC7FC62231EE0B000B3F82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17BC7FC52231EE0B000B3F82 /* Assets.xcassets */; };
+		17BC7FC92231EE0B000B3F82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17BC7FC72231EE0B000B3F82 /* LaunchScreen.storyboard */; };
+		17BC7FCC2231EE0B000B3F82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BC7FCB2231EE0B000B3F82 /* main.m */; };
+		17BC7FD62231EE0B000B3F82 /* UUID_SAMKeychainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BC7FD52231EE0B000B3F82 /* UUID_SAMKeychainTests.m */; };
+		17BC7FE12231EE0B000B3F82 /* UUID_SAMKeychainUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BC7FE02231EE0B000B3F82 /* UUID_SAMKeychainUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17BC7FD22231EE0B000B3F82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17BC7FB12231EE0B000B3F82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17BC7FB82231EE0B000B3F82;
+			remoteInfo = "UUID-SAMKeychain";
+		};
+		17BC7FDD2231EE0B000B3F82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17BC7FB12231EE0B000B3F82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17BC7FB82231EE0B000B3F82;
+			remoteInfo = "UUID-SAMKeychain";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17BC7FB92231EE0B000B3F82 /* UUID-SAMKeychain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UUID-SAMKeychain.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17BC7FBC2231EE0B000B3F82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17BC7FBD2231EE0B000B3F82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17BC7FBF2231EE0B000B3F82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		17BC7FC02231EE0B000B3F82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		17BC7FC32231EE0B000B3F82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17BC7FC52231EE0B000B3F82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17BC7FC82231EE0B000B3F82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17BC7FCA2231EE0B000B3F82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17BC7FCB2231EE0B000B3F82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17BC7FD12231EE0B000B3F82 /* UUID-SAMKeychainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UUID-SAMKeychainTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17BC7FD52231EE0B000B3F82 /* UUID_SAMKeychainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UUID_SAMKeychainTests.m; sourceTree = "<group>"; };
+		17BC7FD72231EE0B000B3F82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17BC7FDC2231EE0B000B3F82 /* UUID-SAMKeychainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UUID-SAMKeychainUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17BC7FE02231EE0B000B3F82 /* UUID_SAMKeychainUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UUID_SAMKeychainUITests.m; sourceTree = "<group>"; };
+		17BC7FE22231EE0B000B3F82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17BC7FB62231EE0B000B3F82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BC7FCE2231EE0B000B3F82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BC7FD92231EE0B000B3F82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17BC7FB02231EE0B000B3F82 = {
+			isa = PBXGroup;
+			children = (
+				17BC7FBB2231EE0B000B3F82 /* UUID-SAMKeychain */,
+				17BC7FD42231EE0B000B3F82 /* UUID-SAMKeychainTests */,
+				17BC7FDF2231EE0B000B3F82 /* UUID-SAMKeychainUITests */,
+				17BC7FBA2231EE0B000B3F82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17BC7FBA2231EE0B000B3F82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17BC7FB92231EE0B000B3F82 /* UUID-SAMKeychain.app */,
+				17BC7FD12231EE0B000B3F82 /* UUID-SAMKeychainTests.xctest */,
+				17BC7FDC2231EE0B000B3F82 /* UUID-SAMKeychainUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17BC7FBB2231EE0B000B3F82 /* UUID-SAMKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				17BC7FBC2231EE0B000B3F82 /* AppDelegate.h */,
+				17BC7FBD2231EE0B000B3F82 /* AppDelegate.m */,
+				17BC7FBF2231EE0B000B3F82 /* ViewController.h */,
+				17BC7FC02231EE0B000B3F82 /* ViewController.m */,
+				17BC7FC22231EE0B000B3F82 /* Main.storyboard */,
+				17BC7FC52231EE0B000B3F82 /* Assets.xcassets */,
+				17BC7FC72231EE0B000B3F82 /* LaunchScreen.storyboard */,
+				17BC7FCA2231EE0B000B3F82 /* Info.plist */,
+				17BC7FCB2231EE0B000B3F82 /* main.m */,
+			);
+			path = "UUID-SAMKeychain";
+			sourceTree = "<group>";
+		};
+		17BC7FD42231EE0B000B3F82 /* UUID-SAMKeychainTests */ = {
+			isa = PBXGroup;
+			children = (
+				17BC7FD52231EE0B000B3F82 /* UUID_SAMKeychainTests.m */,
+				17BC7FD72231EE0B000B3F82 /* Info.plist */,
+			);
+			path = "UUID-SAMKeychainTests";
+			sourceTree = "<group>";
+		};
+		17BC7FDF2231EE0B000B3F82 /* UUID-SAMKeychainUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17BC7FE02231EE0B000B3F82 /* UUID_SAMKeychainUITests.m */,
+				17BC7FE22231EE0B000B3F82 /* Info.plist */,
+			);
+			path = "UUID-SAMKeychainUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17BC7FB82231EE0B000B3F82 /* UUID-SAMKeychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17BC7FE52231EE0B000B3F82 /* Build configuration list for PBXNativeTarget "UUID-SAMKeychain" */;
+			buildPhases = (
+				17BC7FB52231EE0B000B3F82 /* Sources */,
+				17BC7FB62231EE0B000B3F82 /* Frameworks */,
+				17BC7FB72231EE0B000B3F82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UUID-SAMKeychain";
+			productName = "UUID-SAMKeychain";
+			productReference = 17BC7FB92231EE0B000B3F82 /* UUID-SAMKeychain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17BC7FD02231EE0B000B3F82 /* UUID-SAMKeychainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17BC7FE82231EE0B000B3F82 /* Build configuration list for PBXNativeTarget "UUID-SAMKeychainTests" */;
+			buildPhases = (
+				17BC7FCD2231EE0B000B3F82 /* Sources */,
+				17BC7FCE2231EE0B000B3F82 /* Frameworks */,
+				17BC7FCF2231EE0B000B3F82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17BC7FD32231EE0B000B3F82 /* PBXTargetDependency */,
+			);
+			name = "UUID-SAMKeychainTests";
+			productName = "UUID-SAMKeychainTests";
+			productReference = 17BC7FD12231EE0B000B3F82 /* UUID-SAMKeychainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17BC7FDB2231EE0B000B3F82 /* UUID-SAMKeychainUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17BC7FEB2231EE0B000B3F82 /* Build configuration list for PBXNativeTarget "UUID-SAMKeychainUITests" */;
+			buildPhases = (
+				17BC7FD82231EE0B000B3F82 /* Sources */,
+				17BC7FD92231EE0B000B3F82 /* Frameworks */,
+				17BC7FDA2231EE0B000B3F82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17BC7FDE2231EE0B000B3F82 /* PBXTargetDependency */,
+			);
+			name = "UUID-SAMKeychainUITests";
+			productName = "UUID-SAMKeychainUITests";
+			productReference = 17BC7FDC2231EE0B000B3F82 /* UUID-SAMKeychainUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17BC7FB12231EE0B000B3F82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "刘红伟";
+				TargetAttributes = {
+					17BC7FB82231EE0B000B3F82 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					17BC7FD02231EE0B000B3F82 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 17BC7FB82231EE0B000B3F82;
+					};
+					17BC7FDB2231EE0B000B3F82 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 17BC7FB82231EE0B000B3F82;
+					};
+				};
+			};
+			buildConfigurationList = 17BC7FB42231EE0B000B3F82 /* Build configuration list for PBXProject "UUID-SAMKeychain" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17BC7FB02231EE0B000B3F82;
+			productRefGroup = 17BC7FBA2231EE0B000B3F82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17BC7FB82231EE0B000B3F82 /* UUID-SAMKeychain */,
+				17BC7FD02231EE0B000B3F82 /* UUID-SAMKeychainTests */,
+				17BC7FDB2231EE0B000B3F82 /* UUID-SAMKeychainUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17BC7FB72231EE0B000B3F82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BC7FC92231EE0B000B3F82 /* LaunchScreen.storyboard in Resources */,
+				17BC7FC62231EE0B000B3F82 /* Assets.xcassets in Resources */,
+				17BC7FC42231EE0B000B3F82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BC7FCF2231EE0B000B3F82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BC7FDA2231EE0B000B3F82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17BC7FB52231EE0B000B3F82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BC7FC12231EE0B000B3F82 /* ViewController.m in Sources */,
+				17BC7FCC2231EE0B000B3F82 /* main.m in Sources */,
+				17BC7FBE2231EE0B000B3F82 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BC7FCD2231EE0B000B3F82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BC7FD62231EE0B000B3F82 /* UUID_SAMKeychainTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BC7FD82231EE0B000B3F82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BC7FE12231EE0B000B3F82 /* UUID_SAMKeychainUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17BC7FD32231EE0B000B3F82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17BC7FB82231EE0B000B3F82 /* UUID-SAMKeychain */;
+			targetProxy = 17BC7FD22231EE0B000B3F82 /* PBXContainerItemProxy */;
+		};
+		17BC7FDE2231EE0B000B3F82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17BC7FB82231EE0B000B3F82 /* UUID-SAMKeychain */;
+			targetProxy = 17BC7FDD2231EE0B000B3F82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17BC7FC22231EE0B000B3F82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17BC7FC32231EE0B000B3F82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17BC7FC72231EE0B000B3F82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17BC7FC82231EE0B000B3F82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17BC7FE32231EE0B000B3F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17BC7FE42231EE0B000B3F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17BC7FE62231EE0B000B3F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3QNCYHA44;
+				INFOPLIST_FILE = "UUID-SAMKeychain/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "daren.UUID-SAMKeychain";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17BC7FE72231EE0B000B3F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3QNCYHA44;
+				INFOPLIST_FILE = "UUID-SAMKeychain/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "daren.UUID-SAMKeychain";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17BC7FE92231EE0B000B3F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3QNCYHA44;
+				INFOPLIST_FILE = "UUID-SAMKeychainTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "daren.UUID-SAMKeychainTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UUID-SAMKeychain.app/UUID-SAMKeychain";
+			};
+			name = Debug;
+		};
+		17BC7FEA2231EE0B000B3F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3QNCYHA44;
+				INFOPLIST_FILE = "UUID-SAMKeychainTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "daren.UUID-SAMKeychainTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UUID-SAMKeychain.app/UUID-SAMKeychain";
+			};
+			name = Release;
+		};
+		17BC7FEC2231EE0B000B3F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3QNCYHA44;
+				INFOPLIST_FILE = "UUID-SAMKeychainUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "daren.UUID-SAMKeychainUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UUID-SAMKeychain";
+			};
+			name = Debug;
+		};
+		17BC7FED2231EE0B000B3F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3QNCYHA44;
+				INFOPLIST_FILE = "UUID-SAMKeychainUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "daren.UUID-SAMKeychainUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UUID-SAMKeychain";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17BC7FB42231EE0B000B3F82 /* Build configuration list for PBXProject "UUID-SAMKeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17BC7FE32231EE0B000B3F82 /* Debug */,
+				17BC7FE42231EE0B000B3F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17BC7FE52231EE0B000B3F82 /* Build configuration list for PBXNativeTarget "UUID-SAMKeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17BC7FE62231EE0B000B3F82 /* Debug */,
+				17BC7FE72231EE0B000B3F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17BC7FE82231EE0B000B3F82 /* Build configuration list for PBXNativeTarget "UUID-SAMKeychainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17BC7FE92231EE0B000B3F82 /* Debug */,
+				17BC7FEA2231EE0B000B3F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17BC7FEB2231EE0B000B3F82 /* Build configuration list for PBXNativeTarget "UUID-SAMKeychainUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17BC7FEC2231EE0B000B3F82 /* Debug */,
+				17BC7FED2231EE0B000B3F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17BC7FB12231EE0B000B3F82 /* Project object */;
+}
