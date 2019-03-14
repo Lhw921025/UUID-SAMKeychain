@@ -15,6 +15,7 @@
 		17BC7FCC2231EE0B000B3F82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BC7FCB2231EE0B000B3F82 /* main.m */; };
 		17BC7FD62231EE0B000B3F82 /* UUID_SAMKeychainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BC7FD52231EE0B000B3F82 /* UUID_SAMKeychainTests.m */; };
 		17BC7FE12231EE0B000B3F82 /* UUID_SAMKeychainUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BC7FE02231EE0B000B3F82 /* UUID_SAMKeychainUITests.m */; };
+		FBF048BC8B7DFCC5A9CB9EBE /* libPods-UUID-SAMKeychain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58FEA6B8DD1E13ACFB414CAD /* libPods-UUID-SAMKeychain.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,12 @@
 		17BC7FDC2231EE0B000B3F82 /* UUID-SAMKeychainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UUID-SAMKeychainUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17BC7FE02231EE0B000B3F82 /* UUID_SAMKeychainUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UUID_SAMKeychainUITests.m; sourceTree = "<group>"; };
 		17BC7FE22231EE0B000B3F82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17BC7FEE2231F119000B3F82 /* UUID-SAMKeychain.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "UUID-SAMKeychain.entitlements"; sourceTree = "<group>"; };
+		17BC7FEF2231F471000B3F82 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		17BC7FF12231F547000B3F82 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		58FEA6B8DD1E13ACFB414CAD /* libPods-UUID-SAMKeychain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UUID-SAMKeychain.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D2D9A139903F294A83DBB26 /* Pods-UUID-SAMKeychain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UUID-SAMKeychain.release.xcconfig"; path = "Target Support Files/Pods-UUID-SAMKeychain/Pods-UUID-SAMKeychain.release.xcconfig"; sourceTree = "<group>"; };
+		FC42ABBBF57933F806EBA82E /* Pods-UUID-SAMKeychain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UUID-SAMKeychain.debug.xcconfig"; path = "Target Support Files/Pods-UUID-SAMKeychain/Pods-UUID-SAMKeychain.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBF048BC8B7DFCC5A9CB9EBE /* libPods-UUID-SAMKeychain.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +93,8 @@
 				17BC7FD42231EE0B000B3F82 /* UUID-SAMKeychainTests */,
 				17BC7FDF2231EE0B000B3F82 /* UUID-SAMKeychainUITests */,
 				17BC7FBA2231EE0B000B3F82 /* Products */,
+				62D653981D43556A4748C991 /* Pods */,
+				BE00E3BEB367802F3FB398B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +111,7 @@
 		17BC7FBB2231EE0B000B3F82 /* UUID-SAMKeychain */ = {
 			isa = PBXGroup;
 			children = (
+				17BC7FEE2231F119000B3F82 /* UUID-SAMKeychain.entitlements */,
 				17BC7FBC2231EE0B000B3F82 /* AppDelegate.h */,
 				17BC7FBD2231EE0B000B3F82 /* AppDelegate.m */,
 				17BC7FBF2231EE0B000B3F82 /* ViewController.h */,
@@ -132,6 +143,25 @@
 			path = "UUID-SAMKeychainUITests";
 			sourceTree = "<group>";
 		};
+		62D653981D43556A4748C991 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC42ABBBF57933F806EBA82E /* Pods-UUID-SAMKeychain.debug.xcconfig */,
+				8D2D9A139903F294A83DBB26 /* Pods-UUID-SAMKeychain.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE00E3BEB367802F3FB398B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17BC7FF12231F547000B3F82 /* MobileCoreServices.framework */,
+				17BC7FEF2231F471000B3F82 /* Security.framework */,
+				58FEA6B8DD1E13ACFB414CAD /* libPods-UUID-SAMKeychain.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17BC7FE52231EE0B000B3F82 /* Build configuration list for PBXNativeTarget "UUID-SAMKeychain" */;
 			buildPhases = (
+				DA0A9145F96F37E2C6F8D155 /* [CP] Check Pods Manifest.lock */,
 				17BC7FB52231EE0B000B3F82 /* Sources */,
 				17BC7FB62231EE0B000B3F82 /* Frameworks */,
 				17BC7FB72231EE0B000B3F82 /* Resources */,
+				5CA307F47A3CA466057283AF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,6 +232,11 @@
 					17BC7FB82231EE0B000B3F82 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					17BC7FD02231EE0B000B3F82 = {
 						CreatedOnToolsVersion = 9.0;
@@ -259,6 +296,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5CA307F47A3CA466057283AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UUID-SAMKeychain/Pods-UUID-SAMKeychain-resources.sh",
+				"${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SAMKeychain.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UUID-SAMKeychain/Pods-UUID-SAMKeychain-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA0A9145F96F37E2C6F8D155 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UUID-SAMKeychain-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		17BC7FB52231EE0B000B3F82 /* Sources */ = {
@@ -370,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -419,7 +495,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -428,29 +504,37 @@
 		};
 		17BC7FE62231EE0B000B3F82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC42ABBBF57933F806EBA82E /* Pods-UUID-SAMKeychain.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "UUID-SAMKeychain/UUID-SAMKeychain.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S3QNCYHA44;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "UUID-SAMKeychain/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "daren.UUID-SAMKeychain";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		17BC7FE72231EE0B000B3F82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D2D9A139903F294A83DBB26 /* Pods-UUID-SAMKeychain.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "UUID-SAMKeychain/UUID-SAMKeychain.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S3QNCYHA44;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "UUID-SAMKeychain/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "daren.UUID-SAMKeychain";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
